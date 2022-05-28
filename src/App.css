@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container{
+  background-color: aliceblue;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 30px auto;
+  padding:30px;
+  border-radius: 20px;
+
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card{
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.card-image{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-body{
+padding: 10px;
+text-align: center;
+}
+
+.category{
+  color: gray;
+}
+
+a{
+  background-color:bisque;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: aliceblue;
+  transition: 0.8s;
+}
+
+/* Search bar */
+form{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input{
+  border:2px solid white;
+  padding: 10px;
+  font-size: 17px;
+}
+
+input:focus{
+  outline:hidden;
+}
+
+.form-control{
+  width: 400px;
+  border-radius: 8px;
+}
+
+.button{
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+
+.button:hover{
+  background-color: bisque;
+  transition: 0.8s;
+}
